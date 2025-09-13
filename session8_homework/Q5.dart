@@ -8,7 +8,7 @@ void main(){
 
   for(int i = 0; i < 6; i++){
     stdout.write('inter number ${i + 1}: ');
-    double getNumber = double.parse(stdin.readByteSync().toString());
+    double getNumber = double.parse(stdin.readLineSync()!);
     numbers.add(getNumber);
   }
   
