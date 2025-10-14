@@ -48,7 +48,7 @@ void main(){
       oddNumbers.add(n);
     }
   }
-
+  print(sum);
   print("Thr Numbers List = $numbersList");
   print("The Largest Number Is = $largestNumber");
   print("The Smallest Number Is = $smallestNumber");
